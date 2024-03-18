@@ -25,13 +25,13 @@ Follow the steps outlined in the AWS EKS Intermediate Workshop to configure Argo
   - Path: Path to the manifests file (e.g., manifest)
   - Cluster URL: Default EKS cluster URL
   - Leave all other parameters as default and press **Create**.
-![Tetris Screenshot ](https://www.notion.so/GitOps-project-deploy-a-tetris-game-on-EKS-cluster-using-argoCD-fc10276ecd644538859e67ed5ceb5a45?pvs=4#a400aef828cb452fbfedb7f0fb3d59c1)
+![Tetris Screenshot ](screenshots/tetris_1.png)
 ### 3. Accessing the Application
 - Once the application is deployed, use the "hostnames" of the service created to access the application from the service created with argoCD.
-  ![Tetris Screenshot ](https://www.notion.so/GitOps-project-deploy-a-tetris-game-on-EKS-cluster-using-argoCD-fc10276ecd644538859e67ed5ceb5a45?pvs=4#3688388b4a4b4c519d1b82b88bd6e2e6)
-  ![Tetris Screenshot ](https://www.notion.so/GitOps-project-deploy-a-tetris-game-on-EKS-cluster-using-argoCD-fc10276ecd644538859e67ed5ceb5a45?pvs=4#2f059c05f85948a596c0f6911c4ce613)
+  ![Tetris Screenshot ](screenshots/tetris_2.png)
+  ![Tetris Screenshot ](screenshots/tetris_3.png)
 - Access the load balancer's URL to view the Tetris game application running on the EKS cluster.
-  ![Tetris Screenshot 1](https://www.notion.so/GitOps-project-deploy-a-tetris-game-on-EKS-cluster-using-argoCD-fc10276ecd644538859e67ed5ceb5a45?pvs=4#ec678942af7e4c52a98f4ea839d091c1)
+  ![Tetris Screenshot 1](screenshots/tetris_4.png)
 
 
 
@@ -44,23 +44,23 @@ During the deployment process, challenges were encountered in configuring AWS se
 ## Key Takeaways
 
 ### GitOps Approach
-- **Git Repositories as Single Point of Truth:** GitOps employs Git repositories as a central source of truth to deploy applications and manage infrastructure configurations.
-- **Automated Deployment:** GitOps automates the deployment of manifest files and other resources, reducing manual intervention and ensuring consistency across environments.
+- ⭐️ **Git Repositories as Single Point of Truth:** GitOps employs Git repositories as a central source of truth to deploy applications and manage infrastructure configurations.
+- ⭐️ **Automated Deployment:** GitOps automates the deployment of manifest files and other resources, reducing manual intervention and ensuring consistency across environments.
 
 ### Challenges with Manual Deployment
 Deploying files manually poses various challenges:
-- Increased Risk
-- Slower Deployment Time
-- Difficulty in Rollback
+- ⭐️ Increased Risk
+- ⭐️ Slower Deployment Time
+- ⭐️ Difficulty in Rollback
 
 ### Leveraging GitOps Tools
 Using GitOps tools such as ArgoCD mitigates these challenges:
-- **Automated Synchronization:** ArgoCD utilizes the Git repository as a single source of truth. It automatically detects changes made to the repository and synchronizes resources accordingly.
+- ⭐️ **Automated Synchronization:** ArgoCD utilizes the Git repository as a single source of truth. It automatically detects changes made to the repository and synchronizes resources accordingly.
 
 ### Benefits of GitOps
 GitOps offers numerous benefits, including:
-1. **Automation:** Minimizes human error by automating deployment processes.
-2. **Version Control:** Provides versioning capabilities, enabling rollback to previous configurations if needed.
-3. **Consistency:** Ensures consistency across environments by enforcing configuration management through Git repositories.
-4. **Security:** Enables access control to Git repositories, enhancing security measures.
-5. **Faster Deployment:** Accelerates the time of deployment by automating repetitive tasks and streamlining workflows.
+1. ⭐️ **Automation:** Minimizes human error by automating deployment processes.
+2. ⭐️ **Version Control:** Provides versioning capabilities, enabling rollback to previous configurations if needed.
+3. ⭐️ **Consistency:** Ensures consistency across environments by enforcing configuration management through Git repositories.
+4. ⭐️ **Security:** Enables access control to Git repositories, enhancing security measures.
+5. ⭐️ **Faster Deployment:** Accelerates the time of deployment by automating repetitive tasks and streamlining workflows.
