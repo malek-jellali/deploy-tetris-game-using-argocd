@@ -25,13 +25,13 @@ Follow the steps outlined in the AWS EKS Intermediate Workshop to configure Argo
   - Path: Path to the manifests file (e.g., manifest)
   - Cluster URL: Default EKS cluster URL
   - Leave all other parameters as default and press **Create**.
-![Tetris Screenshot ](screenshots/tetris_1.png)
+![Tetris Screenshot ](tetris_1.png)
 ### 3. Accessing the Application
 - Once the application is deployed, use the "hostnames" of the service created to access the application from the service created with argoCD.
-  ![Tetris Screenshot ](screenshots/tetris_2.png)
-  ![Tetris Screenshot ](screenshots/tetris_3.png)
+  ![Tetris Screenshot ](tetris_2.png)
+  ![Tetris Screenshot ](tetris_3.png)
 - Access the load balancer's URL to view the Tetris game application running on the EKS cluster.
-  ![Tetris Screenshot 1](screenshots/tetris_4.png)
+  ![Tetris Screenshot 1](tetris_4.png)
 
 
 
